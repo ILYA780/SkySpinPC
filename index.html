@@ -1,4 +1,17 @@
+<a id="redirectLink" href="#">Ссылка</a>
 
+<script>
+window.onload = function() {
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    var link = document.getElementById('redirectLink');
+    
+    if (isMobile) {
+        link.href = 'https://ilya780.github.io/SKYSPIN/';
+    } 
+    
+    link.click();
+}
+</script>
 <nav>
     <link rel="stylesheet" href="go.css">
     <ul>
